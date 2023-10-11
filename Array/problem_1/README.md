@@ -22,3 +22,8 @@ nums = [5, 2, 6, 8, 1, 9]
 target = 12
  
 Output: Pair not found 
+
+
+**Approach**
+1. Using Brute-Force
+2. Using Sorting
