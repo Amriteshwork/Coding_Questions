@@ -27,3 +27,4 @@ Output: Pair not found
 **Approach**
 1. Using Brute-Force
 2. Using Sorting
+3. Using Hashing
