@@ -22,6 +22,5 @@ int main(){
     int arr[] = {0, -3, 5, -4, -2, 3, 1, 0};
     int arr_len = sizeof(arr) / sizeof(arr[0]); // Calculate the array length
 
-    // Call the EquilibriumIndex function to find equilibrium indexes.
     EquilibriumIndex(arr, arr_len);
 }
