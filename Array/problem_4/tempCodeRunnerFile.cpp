@@ -1,2 +1,0 @@
-rr<<endl;
-    // cout<<accumulat
