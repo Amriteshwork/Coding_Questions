@@ -9,4 +9,4 @@ For an array A consisting n elements, index i is an equilibrium index if the sum
 Similarly, `0` is an equilibrium index if `A[1] + A[2] + … + A[n-1]` sums to 0 and n-1 is an equilibrium index if `A[0] + A[1] + … + A[n-2]` sums to `0`.
 
  
-To illustrate, consider the array `{0, -3, 5, -4, -2, 3, 1, 0}`. The equilibrium index is found at index `0`, `3`, and `7`.
+To illustrate, consider the array `{0, -3, 5, -4, -2, 3, 1, 0}`. The equilibrium index is found at index `0`, `3`, and `7`. abc

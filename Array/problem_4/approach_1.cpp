@@ -4,24 +4,17 @@ using namespace std;
 // Function to find equilibrium index in an array
 // An equilibrium index is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
 void EquilibriumIndex(int arr[], int arr_len){
-    int pivot = 1;
-    
-    // If the array length is less than 3, there can be no equilibrium index.
-    if(arr_len < 3){
-        return;
-    }
-
+    int pivot = 0;
     // Iterate through the array elements to find equilibrium indexes.
     while(pivot < arr_len){
-        int sum1 = 0; // Sum of elements to the left of the pivot.
-        int sum2 = 0; // Sum of elements to the right of the pivot.
+        int sum1 = 0; 
+        int sum2 = 0; 
         
-        // Calculate the sum of elements on the left of the pivot.
+
         for(int i = 0; i < pivot; i++){
             sum1 += arr[i];
         }
         
-        // Calculate the sum of elements on the right of the pivot.
         for(int j = pivot + 1; j < arr_len; j++){
             sum2 += arr[j];
         }
@@ -35,8 +28,8 @@ void EquilibriumIndex(int arr[], int arr_len){
 }
 
 int main(){
-    int arr[] = {}; // Initialize an empty array
-    int arr_len = sizeof(arr) / sizeof(arr[0]); // Calculate the array length
+    int arr[] = {0, -3, 5, -4, -2, 3, 1, 0};
+    int arr_len = sizeof(arr)/sizeof(arr[0]);
 
     // Call the EquilibriumIndex function to find equilibrium indexes.
     EquilibriumIndex(arr, arr_len);
