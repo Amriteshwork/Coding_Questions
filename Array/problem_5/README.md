@@ -5,7 +5,7 @@ Given an integer array of size `n`, return the element which appears more than `
 Input : `{2, 8, 7, 2, 2, 5, 2, 3, 1, 2, 2}`   
 Output: `2`
 
-Input : `{1, 3, 1, 1}`
+Input : `{1, 3, 1, 1}`   
 Output: `1`
 
 **Approach**
