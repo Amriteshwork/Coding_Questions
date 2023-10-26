@@ -2,7 +2,7 @@
 
 - [Questions](https://www.techiedelight.com/data-structures-and-algorithms-problems/)
 
-1. Find a pair with the given sum in an array.
+1. [Find a pair with the given sum in an array.](https://github.com/Amriteshwork/Coding_Questions/tree/main/Array/problem_1)
 2. Sort binary array in linear time.
 3. Find the maximum product of two integers in an array.
 4. Find equilibrium index of an array.
@@ -14,4 +14,5 @@
 10. Find pairs with difference `k` in an array.
 11. Find the minimum difference between the index of two given elements present in an array.
 12. Partition an array into two subarrays with the same sum.
-13. 
+13. Find two numbers with maximum sum formed by array digits.
+14. Find the minimum index of a repeating element in an array
