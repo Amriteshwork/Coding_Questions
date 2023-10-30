@@ -16,3 +16,4 @@
 12. [Partition an array into two subarrays with the same sum.](https://github.com/Amriteshwork/Coding_Questions/tree/main/Array/problem_12)
 13. [Find two numbers with maximum sum formed by array digits.](https://github.com/Amriteshwork/Coding_Questions/tree/main/Array/problem_13)
 14. [Find the minimum index of a repeating element in an array.](https://github.com/Amriteshwork/Coding_Questions/tree/main/Array/problem_14)
+15. [Find a pair with a minimum absolute sum in an array](https://github.com/Amriteshwork/Coding_Questions/tree/main/Array/problem_15)
