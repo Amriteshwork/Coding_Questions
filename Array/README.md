@@ -1,21 +1,29 @@
-flowchart TD
-    A[User Interface - Streamlit] --> B[Data Processing Layer]
-    B --> C[NewsData.io API]
-    C --> B
-    B --> D[Data Storage - Pandas]
-    D --> E[Visualization - Plotly]
-    E --> A
+```mermaid
+flowchart TB
+    UI[Streamlit UI Layer]
+    API[NewsData.io API]
+    Process[Data Processing Layer]
+    Viz[Visualization Layer]
+    Store[Data Storage]
+    
+    UI --> |User Input| Process
+    Process --> |API Request| API
+    API --> |JSON Response| Process
+    Process --> |Pandas DataFrame| Store
+    Store --> |Processed Data| Viz
+    Viz --> |Interactive Charts| UI
     
     subgraph Frontend
-        A
-        E
+        UI
+        Viz
     end
     
     subgraph Backend
-        B
-        D
+        Process
+        Store
     end
     
     subgraph External
-        C
+        API
     end
+```
